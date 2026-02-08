@@ -1,0 +1,37 @@
+#Shoes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+}
+
+.box{
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box > * {
+    margin-bottom: 5px;
+    margin-top:0px;
+}
+#pricebox {
+    
+    display: flex;
+    font-size: 10px;
+    justify-content: flex-start;
+    gap:10px;
+}
+h5{
+    
+    margin-right:  20px;
+}
+img{
+    height:80%;
+    width:100%;
+    object-fit: cover;
+}
+p + div > p:nth-child(2){
+   text-decoration: line-through;
+}
+p{
+    font-size: 15px;
+}
